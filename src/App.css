@@ -18,7 +18,7 @@ button:active {
 }
 
 .bg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -28,12 +28,11 @@ button:active {
   z-index: -1;
 }
 
-.bg::after {
-  position: absolute;
+.bg .wrapper {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  content: "";
   background-color: rgba(0, 0, 0, 0.6);
 }

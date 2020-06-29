@@ -27,7 +27,7 @@
 
 .main form input:focus ~ label {
   top: -80px;
-  left: 85px;
+  left: 60px;
 }
 
 .main form input:focus ~ .bar:before,
@@ -38,7 +38,7 @@
 .main form label {
   position: absolute;
   top: -30px;
-  left: 85px;
+  left: 60px;
   font-weight: bold;
   font-size: 35px;
   color: #fff;
@@ -48,7 +48,7 @@
 .main form .bar {
   position: relative;
   display: block;
-  width: 554px;
+  width: 500px;
 }
 
 .main form .bar:before,

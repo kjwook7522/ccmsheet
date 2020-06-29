@@ -1,10 +1,11 @@
 import React from 'react';
 import './Nav.css';
+import { message } from 'antd';
 
 function Nav() {
   const warning = () => {
-    alert("준비중입니다.");
-  }
+    message.warning('아직 준비중 입니다.');
+  };
 
   return (
     <div className="nav">
