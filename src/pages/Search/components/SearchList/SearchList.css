@@ -1,0 +1,21 @@
+#search-list {
+  padding: 0 20px;
+  position: relative;
+}
+
+#search-list .header {
+  height: 40px;
+}
+
+#search-list .header h1 {
+  font-size: 18px;
+  color: #eee;
+}
+
+#search-list .list {
+  height: calc(100vh - 195px);
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: scroll;
+}
