@@ -1,0 +1,17 @@
+#search {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/asset/images/background-img.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+
+#search::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}

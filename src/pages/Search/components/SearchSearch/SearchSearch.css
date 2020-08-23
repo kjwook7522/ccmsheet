@@ -1,0 +1,39 @@
+#search-search {
+  padding-top: 80px;
+  position: relative;
+  box-sizing: content-box;
+}
+
+#search-search .search-form {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+#search-search .search-form input {
+  width: 300px;
+  padding: 5px;
+  padding-right: 20px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background-color: transparent;
+  font-size: 15px;
+  color: #eee;
+  transition: all 0.2s ease;
+}
+
+#search-search .search-form input:focus {
+  outline: none;
+  border-bottom-color: #ffaa71;
+}
+
+#search-search .search-form button {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #eee;
+  cursor: pointer;
+}

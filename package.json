@@ -1,6 +1,6 @@
 {
   "name": "ccmsheet",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
@@ -15,9 +15,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "build": "cross-env NODE_PATH=src react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
   }
 }
