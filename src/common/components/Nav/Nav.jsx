@@ -8,7 +8,7 @@ function Nav() {
   };
 
   return (
-    <div id="nav">
+    <section id="nav">
       <div className="left">
         <a href="/">
           <h1>
@@ -19,7 +19,7 @@ function Nav() {
       <div className="right">
         <button onClick={warning}>로그인</button>
       </div>
-    </div>
+    </section>
   );
 }
 

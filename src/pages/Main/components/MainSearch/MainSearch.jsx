@@ -16,7 +16,7 @@ function MainSearch({ push }) {
   };
 
   return (
-    <div id="main-search">
+    <section id="main-search">
       <form className="saerch-form column-center" onSubmit={handleSubmit}>
         <input type="text" onChange={handleInput} />
         <label>이번주 찬양을 검색해보세요.</label>
@@ -24,7 +24,7 @@ function MainSearch({ push }) {
           <SearchOutlined />
         </button>
       </form>
-    </div>
+    </section>
   );
 }
 

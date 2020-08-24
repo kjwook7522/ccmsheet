@@ -18,14 +18,14 @@ function SearchSearch({ replace }) {
   };
 
   return (
-    <div id="search-search">
+    <section id="search-search">
       <form onSubmit={handleSubmit} className="search-form">
         <input ref={inputRef} type="text" placeholder="검색어를 입력해주세요" onChange={handleInput} />
         <button>
           <SearchOutlined />
         </button>
       </form>
-    </div>
+    </section>
   );
 }
 

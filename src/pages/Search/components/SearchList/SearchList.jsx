@@ -5,7 +5,7 @@ import "./SearchList.css";
 function SearchList({ search, itemList }) {
   const test = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3];
   return (
-    <div id="search-list">
+    <section id="search-list">
       <div className="header">
         <h1>"{search}"(으)로 검색한 결과입니다.</h1>
       </div>
@@ -14,7 +14,7 @@ function SearchList({ search, itemList }) {
           <SheetItem />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
