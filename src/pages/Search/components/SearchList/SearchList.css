@@ -19,3 +19,7 @@
   grid-template-columns: repeat(4, 1fr);
   overflow: scroll;
 }
+
+#search-list .list a {
+  margin: 50px auto;
+}

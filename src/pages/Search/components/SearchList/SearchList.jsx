@@ -1,5 +1,6 @@
 import React from "react";
 import { SheetItem } from "common/components";
+import { Link } from "react-router-dom";
 import "./SearchList.css";
 
 function SearchList({ search, itemList }) {
@@ -11,7 +12,7 @@ function SearchList({ search, itemList }) {
       </div>
       <div className="list">
         {test.map(() => (
-          <SheetItem />
+          <Link to="/detail/1"><SheetItem /></Link>
         ))}
       </div>
     </section>

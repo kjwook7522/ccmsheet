@@ -1,9 +1,10 @@
 .sheet-item {
   width: 200px;
   height: 230px;
-  margin: 50px auto;
+  margin: 0 auto;
   position: relative;
   border-radius: 15px;
+  
   transition: 0.2s ease all;
   cursor: pointer;
 }

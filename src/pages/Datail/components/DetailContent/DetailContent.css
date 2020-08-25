@@ -1,0 +1,21 @@
+#detail-content {
+  width: 1000px;
+  height: calc(100vh - 150px);
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  top: 150px;
+  border-radius: 15px 15px 0 0;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+#detail-content .close {
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+#detail-content .close span {
+  font-size: 30px;
+  cursor: pointer;
+}
