@@ -1,12 +1,12 @@
 import React from "react";
-import { YoutubeOutlined } from "@ant-design/icons";
+import { YoutubeFilled } from "@ant-design/icons";
 import "./DetailYoutube.css";
 
 function DetailYoutube() {
   return (
     <div id="detail-youtube">
       <p>
-        <YoutubeOutlined style={{ color: "#BC2424" }} /> <a href="https://youtu.be/Ndms0N4sxgM">유튜브 링크</a>
+        <YoutubeFilled style={{ color: "#BC2424" }} /> <a href="https://youtu.be/Ndms0N4sxgM">유튜브 링크</a>
       </p>
       <iframe
         title="youtube"
